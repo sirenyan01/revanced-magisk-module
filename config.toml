@@ -7,29 +7,51 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Instagram]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 included-patches = "'Hide ads' 'Disable analytics' 'Remove build expired popup' 'Sanitize sharing links'"
 exclusive-patches = true
 
 [Messenger]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 
 [Music]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
 [Reddit]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Tiktok]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Twitch]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [Twitter]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 
 [YouTube]
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-
-
