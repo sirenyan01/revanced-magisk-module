@@ -1,38 +1,10 @@
 enable-module-update = true
 parallel-jobs = 1
 
-# 全局补丁源设置，使用 MorpheApp 避开 451 版权封锁
+[YouTube]
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-
-[Instagram]
-# 移除 apkmirror，强制使用 uptodown
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-included-patches = "'Hide ads' 'Disable analytics' 'Remove build expired popup' 'Sanitize sharing links'"
-exclusive-patches = true
-
-[Messenger]
-uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
-
-[Music]
-# 优先使用 Archive 镜像源，这是最稳定的来源
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-
-[Reddit]
-uptodown-dlurl = "https://reddit.en.uptodown.com/android"
-
-[Tiktok]
-uptodown-dlurl = "https://tik-tok.en.uptodown.com/android"
-
-[Twitch]
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-
-[Twitter]
-uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-
-[YouTube]
-# 优先使用 Archive 镜像源
+# 使用 Archive 或 Uptodown 绕过 APKMirror 的封锁
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
